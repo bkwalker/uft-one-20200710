@@ -3,7 +3,7 @@ Browser("Browser").Navigate "https://www.bestbuy.com/" @@ hightlight id_;_459820
 Browser("Browser").Maximize
 Browser("Browser").Sync
 
-
+'Traditional OR
 Browser("Browser").Page("Best Buy | Official Online").WebButton("Products").Click @@ script infofile_;_ZIP::ssf2.xml_;_
 Browser("Browser").Page("Best Buy | Official Online").WebButton("Computers & Tablets").Click @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Browser").Page("Best Buy | Official Online").WebButton("Wi-Fi & Networking").Click @@ script infofile_;_ZIP::ssf4.xml_;_
@@ -12,7 +12,7 @@ Browser("Browser").Sync
 Browser("Browser").Page("Routers, Wireless Routers").Link("Fastest").Click @@ script infofile_;_ZIP::ssf6.xml_;_
 Browser("Browser").Sync
 
-
+'AI
 Browser("Browser").Navigate "https://www.bestbuy.com/" @@ hightlight id_;_459820_;_script infofile_;_ZIP::ssf1.xml_;_
 Browser("Browser").Sync
 AIUtil.SetContext Browser("Browser")
